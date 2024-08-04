@@ -1,0 +1,68 @@
+.items
+{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header
+{
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.header span
+{
+    width: 100px;
+    display: block;
+    background-color: #eee;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+.header .active,
+.header span:hover
+{
+    background-color: red;
+    color: white;
+}
+
+.content
+{
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.content span
+{
+    width: 100px;
+    height: 100px;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+}
+
+.content .web 
+{
+    background-color: red;
+}
+
+.content .graphic
+{
+    background-color: blue;
+}
+
+.content .marketing
+{
+    background-color: black;
+}

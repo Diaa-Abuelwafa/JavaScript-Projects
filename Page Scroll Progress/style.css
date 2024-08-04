@@ -1,0 +1,14 @@
+body 
+{
+    height: 5000px;
+}
+
+.progress
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 5px;
+    width: 0;
+    background-color: #0075FF;
+}

@@ -1,0 +1,34 @@
+            <div class="repo">
+                <span class="repo-name">Diaa</span>
+                <div class="repo-info">
+                    <span class="stars">50 Stars</span>
+                    <a href="">Visit</a>
+                </div>
+            </div>
+            <div class="repo">
+                <span class="repo-name"></span>
+                <div class="repo-info">
+                    <span class="stars"></span>
+                    <a href="">Visit</a>
+                </div>
+            </div>
+            <div class="repo">
+                <span class="repo-name"></span>
+                <div class="repo-info">
+                    <span class="stars"></span>
+                    <a href="">Visit</a>
+                </div>
+            </div>
+            <div class="repo">
+                <span class="repo-name"></span>
+                <div class="repo-info">
+                    <span class="stars"></span>
+                    <a href="">Visit</a>
+                </div>
+            </div>
+
+
+
+            name
+            stargazers_count
+            html_url

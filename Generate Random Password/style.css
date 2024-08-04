@@ -1,0 +1,35 @@
+.content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.content .result
+{
+    width: 400px;
+    height: 80px;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.content button
+{
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: #f44336;
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+    border: none;
+    user-select: none;
+}

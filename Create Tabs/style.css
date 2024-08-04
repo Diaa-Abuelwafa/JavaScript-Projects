@@ -1,0 +1,60 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    font-family: sans-serif;
+}
+
+.items
+{
+    width: 500px;
+    background-color: white;
+    padding: 20px;
+}
+
+.items > span
+{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.items .header
+{
+    display: flex;
+}
+
+.items .header span
+{
+    display: block;
+    padding: 10px;
+    background: #f8f7f7;
+    width: 100px;
+    text-align: center;
+    color: rgb(113, 113, 113);
+    cursor: pointer;
+    border: 1px #eee solid;
+}
+
+.items .header span:hover,
+.items .header .active
+{
+    color: #0075FF;
+    border-top: 1px #0075FF solid;
+}
+
+.items .content
+{
+    padding: 20px;
+    border: 1px #eee solid;
+}
+
+.items .content span 
+{
+    line-height: 1.4;
+    color: rgb(113, 113, 113);
+}

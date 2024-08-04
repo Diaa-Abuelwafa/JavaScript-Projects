@@ -1,0 +1,64 @@
+button
+{
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.slider
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.image
+{
+    position: relative;
+    width: 500px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.image .slidenum
+{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #00000094;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+.image img
+{
+    width: 100%;
+    max-width: 100%;
+    transition: 0.5;
+}
+
+.switcher
+{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.switcher > button
+{
+    width: 120px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.switcher .numbers .active
+{
+    background-color: green;
+    color: white;
+}

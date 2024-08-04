@@ -1,0 +1,16 @@
+body
+{
+    background-color: #EEE;
+}
+
+.results div 
+{
+    margin: 10px 0;
+    font-size: 25px;
+}
+
+.results div span
+{
+    color: blue;
+    margin-right: 5px;
+}

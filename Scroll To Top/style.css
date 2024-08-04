@@ -1,0 +1,49 @@
+body
+{
+    margin: 0;
+}
+
+div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    font-size: 50px;
+}
+
+.secone
+{
+    background-color: red;
+}
+
+.sectwo
+{
+    background-color: green;
+}
+
+.secthree
+{
+    background-color: blue;
+}
+
+.secfour
+{
+    background-color: #eee;
+}
+
+.scroll
+{
+    cursor: pointer;
+    border: none;
+    position: fixed;
+    right: 35px;
+    bottom: 35px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+    display: none;
+    color: white;
+    font-weight: bold;
+}

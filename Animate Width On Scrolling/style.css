@@ -1,0 +1,46 @@
+
+.secone
+{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    background-color: red;
+}
+
+.sectwo
+{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    background-color: blue;
+}
+
+.secthree
+{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.secthree div
+{
+    display: block;
+    width: 500px;
+    background-color: #eee;
+    height: 50px;
+    margin-bottom: 50px;
+}
+
+.secthree div span
+{
+    display: block;
+    width: 0;
+    height: 100%;
+    background-color: red;
+}
